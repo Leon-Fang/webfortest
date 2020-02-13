@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<style>
+ul{list-style: none;}
+lu,li{display:inline-block;}
+</style>
+<title>gao电商</title>
+
+</head>
+
+<body>
+<div id="header_list">
+  <div id="site_nav" style="width:1400px; height:30px;">
+    <div id="wanted_location" style="display:inline-block;">
+     <ul>
+      <li><span class="site-nav-region">中国大陆</span></li>
+      <li><span class="site-nav-icon">@</span></li>
+      <li><a href="https://login.taobao.com/member/login.jhtml?f=top&amp;redirectURL=https%3A%2F%2Fwww.taobao.com%2F" target="_top" class="h">亲，请登录</a></li>
+      <li><a href="//reg.taobao.com/member/new_register.jhtml?from=tbtop&amp;ex_info=&amp;ex_sign=" target="_top">免费注册</a></li>
+     </ul>     
+    </div>
+    <div id="account_info" style="display:inline-block; float:right;">
+    <ul>
+     <li><a href="//i.taobao.com/my_taobao.htm" target="_top">
+         <span>我的淘宝</span>
+         </a>
+     </li>
+     <li><span class="site-nav-icon">@</span></li>
+     <li><a href="//cart.taobao.com/cart.htm?from=mini&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd">
+		 <span>购物车</span>
+		 <strong class="h" id="J_MiniCartNum">0</strong>
+		 </a>
+		 <span class="site-nav-arrow"><span class="site-nav-icon">@</span></span>
+	 </li>
+     </ul>
+    </div>    
+  </div>
+</div>
+
+<div class="layer clearfix">
+<div class="layer-inner clearfix">
+<div data-spm="201870" class="tbh-discover-goods J_Module on" data-name="goods" >
+ <div class="goods-inner">
+  <ul class="list clearfix goods-list"><a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=2400000200655396680&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="0" aria-setsize="6" class="">
+    <div class="img-wrapper">
+      <img class="a-all" src="1.jpg" aria-labelledby="dg-item-tl-0">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-0">可折叠加厚双面使用榻榻米床垫</h4>
+      <p>可以折叠的榻榻米床垫，收纳不占空间，正反两面都可以使用，同时纯棉材质舒适亲肤，透气性好，保持贴身换将干爽 不粘腻。</p>
+      <p class="extra"><span class="tb-ifont"></span>107 人说好</p>
+    </div>
+  </a>
+  
+
+  
+  <a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=2500000200583196874&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="1" aria-setsize="6" class="">
+    <div class="img-wrapper">
+      <img class="a-all" src="//img.alicdn.com/imgextra/i3/1840508859/TB227FSgHGYBuNjy0FoXXciBFXa_!!1840508859-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp" aria-labelledby="dg-item-tl-1">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-1">YSL限量眼影银盘</h4>
+      <p>金属边框闪亮眼影盒，彰显低调的奢华之美。</p>
+      <p class="extra"><span class="tb-ifont"></span>30 人说好</p>
+    </div>
+  </a>
+  
+
+  
+  <a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=125493251660&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="2" aria-setsize="6" class="">
+    <div class="img-wrapper">
+      <img class="a-all" src="//img.alicdn.com/tfscom/TB2Drm1jVXXXXakXpXXXXXXXXXX_!!2-dgshop.png_180x180xzq90.jpg_.webp" aria-labelledby="dg-item-tl-2">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-2">小狗图案不锈钢皂</h4>
+      <p>以不锈钢的属性进行打造的不锈钢皂，以其效果的广泛性而得到大家的认可，设计的精致，以小狗的雕刻体现，带给家居惬意的感觉。</p>
+      <p class="extra"><span class="tb-ifont"></span>13018 人说好</p>
+    </div>
+  </a>
+  
+
+  
+  <a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=2500000216615602575&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="3" aria-setsize="6" class="second">
+    <div class="img-wrapper">
+      <img class="a-all" src="//img.alicdn.com/imgextra/i4/1022433859/O1CN01qkuVDn1eNSuEj5e6u_!!1022433859-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp" aria-labelledby="dg-item-tl-3">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-3">Puma Defy 赛琳娜限定</h4>
+      <p>设计上继续主打高街风格的科幻元素。</p>
+      <p class="extra"><span class="tb-ifont"></span>8 人说好</p>
+    </div>
+  </a>
+  
+
+  
+  <a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=2500000212207719101&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="4" aria-setsize="6" class="second">
+    <div class="img-wrapper">
+      <img class="a-all" src="//img.alicdn.com/imgextra/i1/2869961377/O1CN011M2hr0zicuS08Hz_!!2869961377-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp" aria-labelledby="dg-item-tl-4">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-4">圣罗兰 口红礼盒</h4>
+      <p>多款色号多种选择，轻松打造出美丽的唇妆。</p>
+      <p class="extra"><span class="tb-ifont"></span>8 人说好</p>
+    </div>
+  </a>
+  
+
+  
+  <a href="https://market.m.taobao.com/app/tb-source-app/aiguangjiepc/content/index.html?contentId=2500000200570373177&amp;scm=1007.12846.156652.0&amp;pvid=07f3215e-80f7-4f02-8b0e-d938cd795b05" role="listitem" aria-posinset="5" aria-setsize="6" class="second">
+    <div class="img-wrapper">
+      <img class="a-all" src="//img.alicdn.com/tfscom/i1/1581756766/TB2TF0ch0zJ8KJjSspkXXbF7VXa_!!1581756766.jpg_180x180xzq90.jpg_.webp" aria-labelledby="dg-item-tl-5">
+    </div>
+    <div class="info">
+      <h4 class="a-all" id="dg-item-tl-5">大豆家  方头奶奶鞋</h4>
+      <p>一脚蹬设计，方便日常的穿脱。</p>
+      <p class="extra"><span class="tb-ifont"></span>3758 人说好</p>
+    </div>
+  </a></ul>
+</div></div>
+</div>
+</div>
+</body>
+</html>
